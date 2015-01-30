@@ -1,18 +1,19 @@
 package ca.ubc.cpsc310.gitlab.client.user;
 
 import java.util.ArrayList;
+
+import java.util.HashMap;
+import java.util.List;
+
+import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
+
+
 import java.util.List;
 
 import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
 
 public class User implements IUser {
 
-
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
 	private List<ProductItem> wishList = new ArrayList<ProductItem>();
 
